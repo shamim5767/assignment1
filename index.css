@@ -12,7 +12,8 @@ nav{
     display: flex;
     justify-content: space-between;
     margin: 40px 150px;
-    color: rgb(13, 19, 33);  
+    color: rgb(13, 19, 33);
+    height: 60px;  
     
 }
 nav h3{
@@ -81,6 +82,7 @@ text-align: left;  */
     margin:20px 250px 0px 250px;
     background-color:#0D1321;
     color: rgba(255, 255, 255, 0.806);
+
 }
 main{
     max-width:1140px;
