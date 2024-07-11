@@ -1,0 +1,26 @@
+.azeret-mono-normal{
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+ /* Navigation bar style */
+  }
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 150px;
+    color: rgb(13, 19, 33);  
+    position:relative;
+}
+nav h3{
+    font-weight: 800;
+    font-size:28px;
+}
+nav button{
+    padding: 17px 24px;
+    border-radius:8px;
+    font-size:20px;
+    font-weight:600;
+}
