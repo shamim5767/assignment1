@@ -47,8 +47,9 @@ text-align: left;  */
 .banner{
     background-image:url(B10A1-Challenge-Begins/assets/Hero-bg.png);
     height:652px;
-    width: 1440px;
+    max-width: 1640px;
     border: 1px dashed #757575;
+    display: block;
     
 }
 .banner-container{
@@ -200,6 +201,24 @@ a{
 }
 h1{
     color: #0b0b0bec;
+}
+footer{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 24px 150px;
+    background-color:#F7F8F8;
+    height: 50px;
+}
+.icon-container{
+    display: flex;
+    gap:35px
+}
+.icon-color{
+    color: blue;
+}
+.icon{font-size:30px;
+
 }
 
 
